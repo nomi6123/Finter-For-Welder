@@ -1,0 +1,17 @@
+.slick-dots {
+    @apply flex justify-center mt-4 space-x-2;
+}
+
+.slick-dots li {
+    @apply w-4 h-4;
+}
+
+.slick-dots li button:before {
+    @apply w-4 h-4 bg-gray-400 rounded-full;
+    content: '';
+    display: inline-block;
+}
+
+.slick-dots li.slick-active button:before {
+    @apply bg-blue-900;
+}
