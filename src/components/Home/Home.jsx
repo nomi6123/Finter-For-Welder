@@ -60,14 +60,14 @@ const Home = () => {
                     We ensure high-quality and precision in every project,
                     meeting the demands of our valued customers.
                   </p>
-                  <button
-                    className="flex items-center uppercase justify-center w-fit px-8 sm:px-10 py-2 mt-2 text-xs sm:text-sm md:text-base 
-                    bg-[#2C7873] text-white text-nowrap border border-transparent font-bold 
-                    hover:bg-transparent hover:text-[#2C7873] hover:border-[#2C7873] 
-                    transition duration-500"
-                  >
-                    Learn More
-                  </button>
+                    <button
+                      className="flex items-center uppercase justify-center w-fit px-8 sm:px-10 py-2 mt-2 text-xs sm:text-sm md:text-base 
+                      bg-[#2C7873] text-white text-nowrap border border-transparent font-bold 
+                      hover:bg-transparent hover:text-[#2C7873] hover:border-[#2C7873] 
+                      transition duration-500"
+                    >
+                      Learn More
+                    </button>
                 </div>
               </div>
             </Slider>
